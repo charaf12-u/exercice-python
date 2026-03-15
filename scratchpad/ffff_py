@@ -1,0 +1,27 @@
+print("entrer a")
+a=float(input())
+print("entrer b")
+b=float(input())
+print("entrer c")
+c=float(input())
+if(a!=0):
+    delta = (b * b - a * c * 4)
+    if(delta<0):
+        print("pas de solitude")
+    elif(delta==0):
+        x=(-b)/(2*a)
+        print("la solitude c'est=",x)
+    else:
+        x1=(-b-math.sqrt(delta))/(2*a)
+        print("1 racine ",x1)
+        x2 = (-b + math.sqrt(delta)) / (2 * a)
+        print("2 racine ", x2)
+else:
+    if(b!=0):
+        x=-c/b
+        print("la soulition",x)
+    else:
+        if(c==0):
+            print("la solution = R")
+        else:
+            print("pas de solutino")

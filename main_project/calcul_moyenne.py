@@ -1,0 +1,6 @@
+note1=float(input("donnez la note1"))
+c1=int(input("donnez la coefficient1"))
+note2=floet(input("donner la note2"))
+c2=int(input("donner la coefficient2"))
+moyenne=(c1*note1+c1*note2)/(c1*c2)
+print("la moyenne c'est=",moyenne)

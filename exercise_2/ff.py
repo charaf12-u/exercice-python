@@ -1,0 +1,16 @@
+print("donner p1")
+p1=float(input())
+print("donner p2")
+p2=float(input())
+print("donner p3")
+p3=float(input())
+print("donner q1")
+q1=float(input())
+print("donner q2")
+q2=float(input())
+print("donner q3")
+q3=float(input())
+pt=p1*q2+p2*q2+p3*q3
+print("pt =",pt)
+tva=(20/100)*pt
+print("tva =",tva)
